@@ -1,0 +1,10 @@
+while True: 
+    dato = input("\nDime la edad de la persona: ")
+
+    if dato.isdigit():
+        resultado = int(dato) * 2 
+        print (f"El doble de la edad es {resultado}")
+        break 
+    else:
+        print("Disculpa, solamente puedo procesar numeros enteros")
+        
